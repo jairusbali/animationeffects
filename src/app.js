@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Hover from "./MouseOverEffect/MouseOverEffect";
+import Hover from "./components/MouseOverEffect";
 
+import Menu from "./components/HamburgerEff";
 
-
-
-export default () => <
-Hover / >
+export default () => (
+  <React.Fragment>
+    <Hover />
+    <Menu />
+  </React.Fragment>
+);
